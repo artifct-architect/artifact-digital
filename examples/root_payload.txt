@@ -1,8 +1,0 @@
-Root Artifact
-
-This is the root capsule in the Artifct example set.
-
-It establishes the origin of a lineage.
-
-Everything that follows can reference this artifact,
-creating a verifiable chain of continuity.
