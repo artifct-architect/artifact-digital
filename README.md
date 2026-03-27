@@ -7,7 +7,7 @@ and can be verified offline, forever.
 
 ---
 
-## ⚡ Try it in 2 minutes
+## Try it in 2 minutes
 
 ### Option 1 — No install (recommended)
 
@@ -31,7 +31,7 @@ python cli/capsule.py verify file.txt.cap
 
 ---
 
-## 🔍 Example
+## Example
 
 * Open: `examples/example_artifact.html`
 * Inspect a real capsule
@@ -39,7 +39,7 @@ python cli/capsule.py verify file.txt.cap
 
 ---
 
-## 🧠 What is a Capsule?
+## What is a Capsule?
 
 A capsule is a file that proves itself.
 
@@ -56,7 +56,7 @@ No servers. No APIs. No trust required.
 
 ---
 
-## 🌿 Lineage
+## Lineage
 
 Capsules can reference a parent.
 
@@ -74,7 +74,7 @@ python explorer/capsule_lineage_explorer.py examples
 
 ---
 
-## 🔐 Trust Model
+## Trust Model
 
 Verification is:
 
@@ -86,7 +86,7 @@ Everything needed to verify a capsule is inside it.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 /app        → browser capsule creator
@@ -98,7 +98,7 @@ Everything needed to verify a capsule is inside it.
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 * capsule.v1 schema
 * identity layers
@@ -108,7 +108,7 @@ Everything needed to verify a capsule is inside it.
 
 ---
 
-## 🛡 License
+## License
 
 This project defines an open, verifiable artifact format.
 
