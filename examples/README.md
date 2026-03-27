@@ -1,29 +1,80 @@
 # Examples
 
-This folder contains sample capsules and generated artifacts.
+This folder contains working examples of Artifct Capsules.
+
+---
 
 ## Files
 
 * `example.cap`
-  A raw capsule file
+  A basic standalone capsule
 
 * `example_artifact.html`
-  A standalone viewer for the capsule
+  A browser-viewable artifact
 
-## How to use
+* `root_example.cap`
+  Root of a lineage
 
-### Open artifact (no setup)
+* `branch_example.cap`
+  Derived capsule referencing the root
 
-Just open the HTML file in your browser.
+* `archive/`
+  Generated lineage explorer
 
-### Verify manually
+---
+
+## Try it instantly
+
+### 1. Open artifact
+
+Open in your browser:
+
+* `example_artifact.html`
+
+No setup required.
+
+---
+
+### 2. Verify capsule
 
 ```bash
 python ../cli/capsule.py verify example.cap
 ```
 
-### Explore lineage
+---
+
+### 3. Explore lineage
 
 ```bash
 python ../explorer/capsule_lineage_explorer.py .
 ```
+
+Then open:
+
+* `archive/index.html`
+* `archive/lineage.html`
+
+---
+
+## What this demonstrates
+
+These examples show:
+
+* self-verifying artifacts
+* offline cryptographic verification
+* authorship and identity
+* lineage (parent → child relationships)
+
+---
+
+## Why this matters
+
+Most files can be copied and altered without context.
+
+Capsules preserve:
+
+* origin
+* integrity
+* continuity
+
+They do not depend on external systems to prove validity.
