@@ -1,0 +1,19 @@
+{
+  "schema": "capsule.v0",
+  "capsule_id": "3c1855cb419d04232b042806123e9c57b5220439d25c7e0e0700f2f306b632fe",
+  "created_at": "2026-03-27T15:37:49Z",
+  "author": "Christopher Jamar Prater",
+  "parent_id": null,
+  "payload_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+  "payload_b64": "aGVsbG8gd29ybGQ=",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXGkiqpwbayaPlifD634Hg3S3Hy7Al8Rp5Evta7erT18=\n-----END PUBLIC KEY-----",
+  "signature_b64": "O299pU67gEbzSKYFJc+mzewF3exOpwBdVfmc4Gvtirn8YZGw32BF6IMi3uBEWkd+iPKCOsdaW2J7nE203pI9AA==",
+  "signature_over": {
+    "schema": "capsule.v0",
+    "capsule_id": "3c1855cb419d04232b042806123e9c57b5220439d25c7e0e0700f2f306b632fe",
+    "payload_sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9",
+    "created_at": "2026-03-27T15:37:49Z",
+    "author": "Christopher Jamar Prater",
+    "parent_id": ""
+  }
+}
