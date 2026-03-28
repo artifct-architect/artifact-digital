@@ -11,7 +11,7 @@ and can be verified offline, forever.
 
 ---
 
-👉 [Open Example Artifact](./examples/example_artifact.html)
+[Open Example Artifact](./examples/example_artifact.html)
 
 ---
 
