@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Capsule Viewer</title>
+  <style>
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #111;
+      background: #fafafa;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+    }
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 14px;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+    pre {
+      background: #f5f5f5;
+      border-radius: 10px;
+      padding: 1rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .ok {
+      color: #0a7a2f;
+      font-weight: 700;
+    }
+    .bad {
+      color: #a11;
+      font-weight: 700;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td {
+      border-top: 1px solid #eee;
+      padding: 0.55rem 0.4rem;
+      vertical-align: top;
+    }
+    td:first-child {
+      width: 220px;
+      font-weight: 600;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Capsule Viewer</h1>
+
+  <div class="card">
+    <h2>Summary</h2>
+    <table>
+      <tr><td>File</td><td>examples\example.cap</td></tr>
+      <tr><td>Status</td><td><span class="ok">VALID Γ£à</span></td></tr>
+      <tr><td>Verify Detail</td><td>VALID</td></tr>
+      <tr><td>Schema</td><td>capsule.v0</td></tr>
+      <tr><td>Capsule ID</td><td>ec5564a8d68ce55f7e863d1cd093d6dffb21981b714abf580366efb817f3e547</td></tr>
+      <tr><td>Author</td><td>Artifact Example</td></tr>
+      <tr><td>Created At</td><td>2026-03-28T14:27:14Z</td></tr>
+      <tr><td>Parent ID</td><td>(none)</td></tr>
+      <tr><td>Payload SHA256</td><td>ae851ca4f8ccfd69a31182f9370acfefebd47131b26c8905741ac8277d5974f0</td></tr>
+      <tr><td>Key Fingerprint</td><td>sha256:6598922ec5ef882618d669569bbd5498449a9252741060a32a5b40266d19c75f</td></tr>
+      <tr><td>Payload Type</td><td>image/CAP</td></tr>
+      <tr><td>Payload Size</td><td>240 bytes</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Payload Preview</h2>
+    <pre>Example Artifact
+
+Title: First Public Example
+Author: Artifact Example
+Purpose: Demonstrate a self-verifying digital artifact
+
+This artifact exists to show:
+- integrity
+- authorship
+- offline verification
+- lineage-ready structure</pre>
+  </div>
+
+  <div class="card">
+    <h2>Lineage</h2>
+    <p><strong>Parent:</strong> none</p>
+    <p><strong>Children:</strong> none</p>
+  </div>
+
+  <div class="card">
+    <h2>Signed Fields</h2>
+    <pre>{
+  &quot;schema&quot;: &quot;capsule.v0&quot;,
+  &quot;capsule_id&quot;: &quot;ec5564a8d68ce55f7e863d1cd093d6dffb21981b714abf580366efb817f3e547&quot;,
+  &quot;payload_sha256&quot;: &quot;ae851ca4f8ccfd69a31182f9370acfefebd47131b26c8905741ac8277d5974f0&quot;,
+  &quot;created_at&quot;: &quot;2026-03-28T14:27:14Z&quot;,
+  &quot;author&quot;: &quot;Artifact Example&quot;,
+  &quot;parent_id&quot;: &quot;&quot;
+}</pre>
+  </div>
+
+  <div class="card">
+    <h2>Raw Capsule JSON</h2>
+    <pre>{
+  &quot;schema&quot;: &quot;capsule.v0&quot;,
+  &quot;capsule_id&quot;: &quot;ec5564a8d68ce55f7e863d1cd093d6dffb21981b714abf580366efb817f3e547&quot;,
+  &quot;created_at&quot;: &quot;2026-03-28T14:27:14Z&quot;,
+  &quot;author&quot;: &quot;Artifact Example&quot;,
+  &quot;parent_id&quot;: null,
+  &quot;payload_sha256&quot;: &quot;ae851ca4f8ccfd69a31182f9370acfefebd47131b26c8905741ac8277d5974f0&quot;,
+  &quot;payload_b64&quot;: &quot;RXhhbXBsZSBBcnRpZmFjdA0KDQpUaXRsZTogRmlyc3QgUHVibGljIEV4YW1wbGUNCkF1dGhvcjogQXJ0aWZhY3QgRXhhbXBsZQ0KUHVycG9zZTogRGVtb25zdHJhdGUgYSBzZWxmLXZlcmlmeWluZyBkaWdpdGFsIGFydGlmYWN0DQoNClRoaXMgYXJ0aWZhY3QgZXhpc3RzIHRvIHNob3c6DQotIGludGVncml0eQ0KLSBhdXRob3JzaGlwDQotIG9mZmxpbmUgdmVyaWZpY2F0aW9uDQotIGxpbmVhZ2UtcmVhZHkgc3RydWN0dXJl&quot;,
+  &quot;public_key_pem&quot;: &quot;-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAO0qvWJZZ8iA+IeM0tju0bfnOGtkzzrCWN2l5+7I7w3Y=\n-----END PUBLIC KEY-----&quot;,
+  &quot;signature_b64&quot;: &quot;RkJ7Wtho0DNPx7SPKoNFBVFILJqb8wJ/oMszKxc11n1ACSZSCWENdykBqfX0qwfUZjfh3KohXaUOaHjxilgyCA==&quot;,
+  &quot;signature_over&quot;: {
+    &quot;schema&quot;: &quot;capsule.v0&quot;,
+    &quot;capsule_id&quot;: &quot;ec5564a8d68ce55f7e863d1cd093d6dffb21981b714abf580366efb817f3e547&quot;,
+    &quot;payload_sha256&quot;: &quot;ae851ca4f8ccfd69a31182f9370acfefebd47131b26c8905741ac8277d5974f0&quot;,
+    &quot;created_at&quot;: &quot;2026-03-28T14:27:14Z&quot;,
+    &quot;author&quot;: &quot;Artifact Example&quot;,
+    &quot;parent_id&quot;: &quot;&quot;
+  }
+}</pre>
+  </div>
+</body>
+</html>
