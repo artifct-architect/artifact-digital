@@ -7,7 +7,7 @@ and can be verified offline, forever.
 
 ---
 
-[Read the Founder Record](./FOUNDER_RECORD.md)
+[Author & Protocol Architect](./FOUNDER_RECORD.md) : Christopher Jamar Prater (Inventor & Protocol Author)
 
 ---
 
