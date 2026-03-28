@@ -30,5 +30,5 @@ python ../explorer/capsule_lineage_explorer.py .
 
 ## Additional Example
 
-- `minimal_example.cap`  
-  A minimal capsule for quick inspection
+- `hello_example.cap`  
+  A foundational capsule for quick inspection
