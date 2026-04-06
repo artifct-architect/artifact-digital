@@ -118,7 +118,7 @@ Everything needed to verify a capsule is inside it.
 
 ## License
 
-This project defines an open, verifiable artifact format.
+APGL 3.0
 
 Reference tools are provided for adoption and experimentation.
 
